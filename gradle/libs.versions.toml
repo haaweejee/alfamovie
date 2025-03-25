@@ -1,0 +1,94 @@
+[versions]
+agp = "8.7.2"
+kotlin = "2.0.0"
+coreKtx = "1.15.0"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+lifecycleRuntimeKtx = "2.8.7"
+activityCompose = "1.9.3"
+composeBom = "2024.04.01"
+koinVer = "3.5.6"
+chuckerVer = "4.0.0"
+ktorVer = "2.3.7"
+paging = "3.3.5"
+pagingCompose = "3.3.5"
+appcompat = "1.7.0"
+material = "1.12.0"
+activity = "1.9.3"
+constraintlayout = "2.2.0"
+coilVer = "3.0.4"
+youtubePlayerVer = "12.1.1"
+lottieComposeVer = "6.3.0"
+kotlinJUnit = "1.9.10"
+kotlinCoroutineTest = "1.7.3"
+mockk = "1.13.7"
+ktorMock = "2.3.4"
+turbineVer = "0.12.1"
+roomVer = "2.5.2"
+material3Ver = "1.3.0"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+
+ktor-client-core = { module = "io.ktor:ktor-client-core", version.ref = "ktorVer" }
+ktor-client-android = { module = "io.ktor:ktor-client-android", version.ref = "ktorVer" }
+ktor-client-logging = { module = "io.ktor:ktor-client-logging", version.ref = "ktorVer" }
+ktor-client-content-negotiation = { module = "io.ktor:ktor-client-content-negotiation", version.ref = "ktorVer" }
+ktor-client-okhttp = { module = "io.ktor:ktor-client-okhttp", version.ref = "ktorVer" }
+ktor-serialization-gson = { module = "io.ktor:ktor-serialization-gson", version.ref = "ktorVer" }
+
+chucker = { module = "com.github.chuckerteam.chucker:library", version.ref = "chuckerVer" }
+chucker-no-op = { module = "com.github.chuckerteam.chucker:library-no-op", version.ref = "chuckerVer" }
+
+koin-core = { module = "io.insert-koin:koin-core", version.ref = "koinVer" }
+koin-android = { module = "io.insert-koin:koin-android", version.ref = "koinVer" }
+
+coil-compose = { module = "io.coil-kt.coil3:coil-compose", version.ref = "coilVer" }
+coil-network-okhttp = { module = "io.coil-kt.coil3:coil-network-okhttp", version.ref = "coilVer" }
+
+paging = { module = "androidx.paging:paging-runtime", version.ref = "paging" }
+paging-compose = { module = "androidx.paging:paging-compose", version.ref = "pagingCompose" }
+
+youtube-player = { module = "com.pierfrancescosoffritti.androidyoutubeplayer:core", version.ref = "youtubePlayerVer" }
+
+lottie-compose = { module = "com.airbnb.android:lottie-compose", version.ref = "lottieComposeVer" }
+
+kotlin-test-junit = { module = "org.jetbrains.kotlin:kotlin-test-junit", version.ref = "kotlinJUnit" }
+kotlin-coroutine-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "kotlinCoroutineTest" }
+mockk = { module = "io.mockk:mockk", version.ref = "mockk" }
+ktor-mock = { module = "io.ktor:ktor-client-mock", version.ref = "ktorMock" }
+turbine = { module = "app.cash.turbine:turbine", version.ref = "turbineVer" }
+
+room = { module = "androidx.room:room-runtime", version.ref = "roomVer" }
+room-compiler = { module = "androidx.room:room-compiler", version.ref = "roomVer" }
+room-ktx = { module = "androidx.room:room-ktx", version.ref = "roomVer" }
+
+material3 = { module = "androidx.compose.material3:material3", version.ref = "material3Ver" }
+
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+
+
+
